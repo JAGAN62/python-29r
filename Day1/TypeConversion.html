@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Type Conversions</title>
+    <style>
+        .header > th {
+            width: 400px;
+            height: 30px;
+            background-color: lightblue;
+        }
+        td{
+            height: 60px;
+            text-align:center;
+        }
+    </style>
+</head>
+<body>
+    <table border="2px" align="center">
+        <caption><marquee scrollamount="15" behavior="alternate" vspace="5">Data Type Conversions</marquee></caption>
+        <tr class="header">
+            <th style="background-color: aqua;">Data Types</th>
+            <th>Int</th>
+            <th>Float</th>
+            <th>Boolean</th>
+            <th>complex</th>
+            <th>string</th>
+            <th>list</th>
+            <th>tuple</th>
+            <th>set</th>
+           <th>dictionary</th>
+        </tr>
+        <tr>
+            <th style="background-color: lightblue;">int</th>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>yes</td>
+            <td>No,'int' object is not iterable</td>
+            <td>No,'int' object is not iterable</td>
+            <td>No,'int' object is not iterable</td>
+            <td>No,'int' object is not iterable</td>
+        </tr>
+        <tr>
+            <th style="background-color: lightblue;">float</th>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>yes</td>
+            <td>No,'float' object is not iterable</td>
+            <td>No,'float' object is not iterable</td>
+            <td>No,'float' object is not iterable</td>
+            <td>No,'float' object is not iterable</td>
+        </tr>
+        <tr>
+            <th style="background-color: lightblue;">boolean</th>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>No,'bool' object is not iterable</td>
+            <td>No,'bool' object is not iterable</td>
+            <td>No,'bool' object is not iterable</td>
+            <td>No,'bool' object is not iterable</td>
+
+
+        </tr>
+        <tr>
+            <th style="background-color: lightblue;">complex</th>
+            <td>No</td>
+            <td>No</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>'complex' object is not iterable</td>
+            <td>'complex' object is not iterable</td>
+            <td>'complex' object is not iterable</td>
+            <td>'complex' object is not iterable</td>
+
+
+        </tr>
+        <tr>
+            <th style="background-color: lightblue;">String</th>
+            <td>No</td>
+            <td>No</td>
+            <td>Yes</td>
+            <td>No, complex() arg is a malformed string</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>No</td>
+
+
+        </tr>
+        <tr>
+            <th style="background-color: lightblue;">List</th>
+            <td> int() argument must be a string, a bytes-like object or a number, not 'list'</td>
+            <td>float() argument must be a string or a number, not 'list'</td>
+            <td>Yes</td>
+            <td>complex() first argument must be a string or a number, not 'list'</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>No</td>
+
+
+        </tr>
+        <tr>
+            <th style="background-color: lightblue;">Tuple</th>
+            <td> int() argument must be a string, a bytes-like object or a number, not 'tuple'</td>
+            <td>float() argument must be a string or a number, not 'list'</td>
+            <td>Yes</td>
+            <td>complex() first argument must be a string or a number, not 'tuple'</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>No</td>
+
+
+        </tr>
+        <tr>
+            <th style="background-color: lightblue;">set</th>
+            <td>No</td>
+            <td>No</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>No</td>
+
+
+        </tr>
+        <tr>
+            <th style="background-color: lightblue;">dictionary</th>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>Yes</td>
+
+
+        </tr>
+
+
+    </table>
+    
+</body>
+</html>
