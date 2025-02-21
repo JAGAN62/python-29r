@@ -1,4 +1,4 @@
-'''
+
 #Write a program to find the greatest of three numbers.
 print('1) Greatest of three numbers')
 a , b , c = input("Enter three nums seperated by space : ").split()
@@ -76,7 +76,7 @@ if s1.isdigit() and s2.isdigit() and s3.isdigit():
 else:
     print('Invalid Input')
 
-'''
+
 
 
 
