@@ -1,4 +1,4 @@
-'''
+
 #Write a program to find the greatest of three numbers.
 print('1) Greatest of three numbers')
 a , b , c = input("Enter three nums seperated by space : ").split()
@@ -14,6 +14,7 @@ else:
     print('Invalid input')
 print()
 
+
 #Check if a year is a leap year
 print('2) check Leap year')
 years = input('Enter a year : ')
@@ -26,6 +27,7 @@ if (years.isdigit()):
 else:
     print('Invalid input')
 print()
+
 
 #classify a character entered by the user as a vowel, consonant, or neither.
 vowles = 'aeiou'
@@ -45,6 +47,7 @@ if (len(char)==1):
 else:
     print('Enter single char  only')
 print()
+
 
 #Calculate the grade  1. 90-100 : Grade A 2. 80-89 : Grade B 3. 70-79 : Grade C 4. <70 : Fail.
 print('4) Grade Calculation')
@@ -76,7 +79,7 @@ if s1.isdigit() and s2.isdigit() and s3.isdigit():
 else:
     print('Invalid Input')
 
-'''
+
 
 
 
