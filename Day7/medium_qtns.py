@@ -1,5 +1,5 @@
 #choose to: 1. Find the square of a number. 2. Find the cube of a number. 3. Exit.
-while True:
+while 'jagan' == 'jagan':
     print("Menu:")
     print("1. Find the square of a number")
     print("2. Find the cube of a number")
@@ -114,5 +114,5 @@ else:
            sum=sum+i*100
        return sum
            
-    print('Total allocated budget:',chr(0x20B9),budget(even),) 
+    print('Total allocated budget:',chr(0x20B9),budget(even)) 
 print()
