@@ -47,31 +47,6 @@ for i in range(1,101):
 print()
 
 
-#choose to: 1. Find the square of a number. 2. Find the cube of a number. 3. Exit.
-while True:
-    print("Menu:")
-    print("1. Find the square of a number")
-    print("2. Find the cube of a number")
-    print("3. Exit")
-    choice = input("Enter your choice (1, 2, or 3): ")
-    if(choice.isdigit()):
-        num = int(choice)
-        if(num == 1):
-            s = int(input('Enter a number to find a square : '))
-            print(f'square of {s} is {s * s}')
-            print()
-        elif(num == 2):
-            c = int(input('Enter a number to find a cube : '))
-            print(f'cube of {c} is {c ** 3}')
-            print()
-        elif(num == 3):
-            print('Exit a loop')
-            break
-    else:
-        print('Invalid input')
-print()
-
-
 #Implement a basic login system where the user has three attempts to enter the correct password using a loop.
 name = input('User Name : ')
 def password():
@@ -92,6 +67,5 @@ def password():
             else:
                 print("Access denied. You have used all your attempts.")
                 print(f'The correct password is {real}')
-
 password()
-
+print(' ')
