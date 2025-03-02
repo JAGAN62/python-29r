@@ -12,10 +12,6 @@ user = input('Enter a range of number : ')
 if(user.isdigit()):
     num = int(user)
     print(f' sum of first {user} numbers is : {(num*(num+1))//2}' )
-    # count = 0
-    # for i in range(num+1):
-    #     count+=i
-    # print(count)
 else:
     print("Invalid input")
 print()

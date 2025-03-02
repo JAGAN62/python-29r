@@ -30,15 +30,15 @@ print()
 
 
 #classify a character entered by the user as a vowel, consonant, or neither.
+print('Classify Characters')
 vowles = 'aeiou'
-consonants ='bcdfghjklmnpqrstvwxyz'
-print('3) Classify Characters')
+# consonants ='bcdfghjklmnpqrstvwxyz'
 char = input('Enter a single character : ').lower()
 if (len(char)==1):
     if(char.isalpha() or not(char.isalnum())):
         if (char in vowles):
             print(f" '{char}' is vowle")
-        elif(char in consonants):
+        elif(char.isalpha()):
             print(f" '{char}' is consonant")
         else:
             print(f" '{char}' is special Character")

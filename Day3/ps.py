@@ -110,7 +110,7 @@ elif(mon == 10):
     print("October")
 elif(mon == 11):
     print("November")
-elif(mon == 17):
+elif(mon == 12):
     print("December")
 else:
     print('Invalid')
