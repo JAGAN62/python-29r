@@ -19,8 +19,7 @@ def check_prime(n):
         if num % i == 0:
             return f"{num} is not a prime number"
     return f"{num} is a prime number"
-user_input = input("Enter a number to check if it's prime: ")
-print(check_prime(user_input))
+print(check_prime(input("Enter a number to check if it's prime: ")))
 print()
 
 

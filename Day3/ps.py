@@ -69,11 +69,9 @@ else:
     print('Invalid')
 
 #calculator
-a,b = map(int,input('Enter two numbers : ').split())
-cal = input('Enter required operation of first three letters : ').lower()
-if(b == 0):
-    print('divison with 0 is not possible')
 def on(cal):
+    if(b == 0):
+       print('divison with 0 is not possible')  
     if (cal == 'add'):
         return a+b
     elif (cal == 'sub'):
@@ -84,7 +82,8 @@ def on(cal):
         return a/b
     else:
         return 'invalid'
-print(on(cal))
+a,b = map(int,input('Enter two numbers : ').split())
+print(on(input('Enter required operation of first three letters : ').lower()))
 
 #months
 mon = int(input("Enter a number for Months : "))

@@ -173,3 +173,5 @@ def gcd():
         print(F'GCD of {a} and {b} is:',gcd(a,b))
     print(" ")
 gcd()
+
+
