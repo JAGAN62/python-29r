@@ -51,6 +51,7 @@ def week(day):
 week(int(input("Enter a number for day: ")))
 print(' ')
 
+
 print('calculate numbers based on operation')
 def on(cal,a,b):
     if(b == 0):
@@ -111,7 +112,6 @@ leap(input('Enter a year : '))
 print(' ')
 
 
-
 # classify a character entered by the user as a vowel, consonant, or neither.
 print('Classify Characters')
 def classify(char):
@@ -130,7 +130,6 @@ def classify(char):
         print('Enter single char  only')
 classify(input('Enter a single character : ').lower())
 print(' ')
-
 
 
 # Calculate the grade  1. 90-100 : Grade A 2. 80-89 : Grade B 3. 70-79 : Grade C 4. <70 : Fail.
@@ -187,7 +186,6 @@ sum(input('Enter a range of number : '))
 print(' ')
 
 
-
 print('all even and odd numbers between 1 and 50')
 def even_sum(num):
     even =[]
@@ -203,7 +201,6 @@ def even_sum(num):
     print(f'Even numbers from 1 to 50 are:\n {even}')
 even_sum(50)
 print(' ')
-
 
 
 def table(n):
@@ -321,6 +318,7 @@ def exit():
         print('Invalid input')
 exit()
 print(' ')
+
 
 #Implement a basic login system where the user has three attempts to enter the correct password using a loop.
 name = input('User Name : ')
