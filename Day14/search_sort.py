@@ -1,12 +1,14 @@
-# #Find the sum of all elements in a nested list.
-# def sum_nestedlist(arr):
-#     # for i in range(len(arr)):
-#     #     sum=0
-#     #     for j in arr[i]:
-#     #         sum+=j
-#     #     result_array.append(sum)
+#Find the sum of all elements in a nested list.
+def sum_nestedlist(arr):
+    result_array=[]
+    for i in range(len(arr)):
+        sum=0
+        for j in arr[i]:
+            sum+=j
+        result_array.append(sum)
+    print(result_array)
+sum_nestedlist([[1,2],[6,7]])
 
-#     result_array=[]
 #     sum=0
 #     for _ in arr:
 #         sum+=_
@@ -42,7 +44,7 @@
 
 
 # Find the missing numbers - In the between max and min digits in the given inputs, find the missing digits.
-# Input: 34571      Outpur : 26 missing
+# Input: 34571      Output : 26 missing
 # def sum(temp):
 #     num = temp
 #     list=[]
@@ -104,15 +106,15 @@
 
 # Given array of N integer, the task is to replace each element of the array  by its rank in the array
 #    Input: 20 15 26 2 98 6       Output:4 3   5   1  6 2
-# length = int(input('Enter a length of list'))
-# user = input('Enter a numbers seperated by space: ').split()
-# _user = list(map(int,user))
-# sort_user = sorted(_user)
-# ans = []
-# for i in _user:
-#     ans.append(sort_user.index(i)+1)
-# print(user)
-# print(ans)
+length = int(input('Enter a length of list'))
+user = input('Enter a numbers seperated by space: ').split()
+_user = list(map(int,user))
+sort_user = sorted(_user)
+ans = []
+for i in _user:
+    ans.append(sort_user.index(i)+1)
+print(user)
+print(ans)
 
     
 

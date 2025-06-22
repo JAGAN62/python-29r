@@ -32,7 +32,7 @@ print()
 #classify a character entered by the user as a vowel, consonant, or neither.
 print('Classify Characters')
 vowles = 'aeiou'
-char = input('Enter a single character : ').lower()
+char = input('Enter a character : ').lower()
 if (len(char)==1):
     if(char.isalpha() or not(char.isalnum())):
         if (char in vowles):

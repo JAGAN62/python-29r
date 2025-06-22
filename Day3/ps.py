@@ -28,7 +28,7 @@ print()
 
 #vote
 print('vote validation')
-age = int(input('Enter u r Age : '))
+age = input('Enter u r Age : ')
 if(age.isdigit()):
     age1 = int(age)
     if(age1 > 0 and age1 < 18):
@@ -51,22 +51,8 @@ print('Pass') if (marks) >=40 else print('Fail')
 
 #days
 day = int(input("Enter a number for days : "))
-if(day == 1):
-    print("Sunday")
-elif(day == 2):
-    print("Monday")
-elif(day == 3):
-    print("Tuesday")
-elif(day == 4):
-    print("Wednesday")
-elif(day == 5):
-    print("Thursday")
-elif(day == 6):
-    print("Friday")
-elif(day == 7):
-    print("Saturday")
-else:
-    print('Invalid')
+days = {1:'Sunday',2:'Monday',3:'Tuesday',4:'Wednesday',5:'Thursday',6:'Friday',7:'Saturday'}
+print(days.get(day)) if day > 0 and day < 8 else print('invalid')
 
 #calculator
 def on(cal):

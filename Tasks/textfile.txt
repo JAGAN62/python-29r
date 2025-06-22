@@ -1,0 +1,7 @@
+
+Name,Score,Age
+Alice,85,22
+Bob,90,25
+Charlie,78,23
+David,92,24
+Eva,88,21

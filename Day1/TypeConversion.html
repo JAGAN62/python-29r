@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Type Conversions</title>
     <style>
+        body{
+            overflow-x: hidden;
+            overscroll-behavior: none;
+            overflow-y: auto;
+        }
         .header > th {
             width: 400px;
             height: 30px;
@@ -33,123 +38,123 @@
         </tr>
         <tr>
             <th style="background-color: lightblue;">int</th>
-            <td>Yes</td>
-            <td>Yes</td>
-            <td>Yes</td>
-            <td>Yes</td>
-            <td>yes</td>
-            <td>No,'int' object is not iterable</td>
-            <td>No,'int' object is not iterable</td>
-            <td>No,'int' object is not iterable</td>
-            <td>No,'int' object is not iterable</td>
+            <td contenteditable="true">Yes</td>
+            <td contenteditable="true">Yes</td>
+            <td contenteditable="true">Yes</td>
+            <td contenteditable="true">Yes</td>
+            <td contenteditable="true">yes</td>
+            <td contenteditable="true">No,'int' object is not iterable</td>
+            <td contenteditable="true">No,'int' object is not iterable</td>
+            <td contenteditable="true">No,'int' object is not iterable</td>
+            <td contenteditable="true">No,'int' object is not iterable</td>
         </tr>
         <tr>
             <th style="background-color: lightblue;">float</th>
-            <td>Yes</td>
-            <td>Yes</td>
-            <td>Yes</td>
-            <td>Yes</td>
-            <td>yes</td>
-            <td>No,'float' object is not iterable</td>
-            <td>No,'float' object is not iterable</td>
-            <td>No,'float' object is not iterable</td>
-            <td>No,'float' object is not iterable</td>
+            <td contenteditable="true">Yes</td>
+            <td contenteditable="true">Yes</td>
+            <td contenteditable="true">Yes</td>
+            <td contenteditable="true">Yes</td>
+            <td contenteditable="true">yes</td>
+            <td contenteditable="true">No,'float' object is not iterable</td>
+            <td contenteditable="true">No,'float' object is not iterable</td>
+            <td contenteditable="true">No,'float' object is not iterable</td>
+            <td contenteditable="true">No,'float' object is not iterable</td>
         </tr>
         <tr>
             <th style="background-color: lightblue;">boolean</th>
-            <td>Yes</td>
-            <td>Yes</td>
-            <td>Yes</td>
-            <td>Yes</td>
-            <td>Yes</td>
-            <td>No,'bool' object is not iterable</td>
-            <td>No,'bool' object is not iterable</td>
-            <td>No,'bool' object is not iterable</td>
-            <td>No,'bool' object is not iterable</td>
+            <td contenteditable="true">Yes</td>
+            <td contenteditable="true">Yes</td>
+            <td contenteditable="true">Yes</td>
+            <td contenteditable="true">Yes</td>
+            <td contenteditable="true">Yes</td>
+            <td contenteditable="true">No,'bool' object is not iterable</td>
+            <td contenteditable="true">No,'bool' object is not iterable</td>
+            <td contenteditable="true">No,'bool' object is not iterable</td>
+            <td contenteditable="true">No,'bool' object is not iterable</td>
 
 
         </tr>
         <tr>
             <th style="background-color: lightblue;">complex</th>
-            <td>No</td>
-            <td>No</td>
-            <td>Yes</td>
-            <td>Yes</td>
-            <td>Yes</td>
-            <td>'complex' object is not iterable</td>
-            <td>'complex' object is not iterable</td>
-            <td>'complex' object is not iterable</td>
-            <td>'complex' object is not iterable</td>
+            <td contenteditable="true">No</td>
+            <td contenteditable="true">No</td>
+            <td contenteditable="true">Yes</td>
+            <td contenteditable="true">Yes</td>
+            <td contenteditable="true">Yes</td>
+            <td contenteditable="true">'complex' object is not iterable</td>
+            <td contenteditable="true">'complex' object is not iterable</td>
+            <td contenteditable="true">'complex' object is not iterable</td>
+            <td contenteditable="true">'complex' object is not iterable</td>
 
 
         </tr>
         <tr>
             <th style="background-color: lightblue;">String</th>
-            <td>No</td>
-            <td>No</td>
-            <td>Yes</td>
-            <td>No, complex() arg is a malformed string</td>
-            <td>Yes</td>
-            <td>Yes</td>
-            <td>Yes</td>
-            <td>Yes</td>
-            <td>No</td>
+            <td contenteditable="true">No</td>
+            <td contenteditable="true">No</td>
+            <td contenteditable="true">Yes</td>
+            <td contenteditable="true">No, complex() arg is a malformed string</td>
+            <td contenteditable="true">Yes</td>
+            <td contenteditable="true">Yes</td>
+            <td contenteditable="true">Yes</td>
+            <td contenteditable="true">Yes</td>
+            <td contenteditable="true">No</td>
 
 
         </tr>
         <tr>
             <th style="background-color: lightblue;">List</th>
-            <td> int() argument must be a string, a bytes-like object or a number, not 'list'</td>
-            <td>float() argument must be a string or a number, not 'list'</td>
-            <td>Yes</td>
-            <td>complex() first argument must be a string or a number, not 'list'</td>
-            <td>Yes</td>
-            <td>Yes</td>
-            <td>Yes</td>
-            <td>Yes</td>
-            <td>No</td>
+            <td contenteditable="true"> int() argument must be a string, a bytes-like object or a number, not 'list'</td>
+            <td contenteditable="true">float() argument must be a string or a number, not 'list'</td>
+            <td contenteditable="true">Yes</td>
+            <td contenteditable="true">complex() first argument must be a string or a number, not 'list'</td>
+            <td contenteditable="true">Yes</td>
+            <td contenteditable="true">Yes</td>
+            <td contenteditable="true">Yes</td>
+            <td contenteditable="true">Yes</td>
+            <td contenteditable="true">No</td>
 
 
         </tr>
         <tr>
             <th style="background-color: lightblue;">Tuple</th>
-            <td> int() argument must be a string, a bytes-like object or a number, not 'tuple'</td>
-            <td>float() argument must be a string or a number, not 'list'</td>
-            <td>Yes</td>
-            <td>complex() first argument must be a string or a number, not 'tuple'</td>
-            <td>Yes</td>
-            <td>Yes</td>
-            <td>Yes</td>
-            <td>Yes</td>
-            <td>No</td>
+            <td contenteditable="true"> int() argument must be a string, a bytes-like object or a number, not 'tuple'</td>
+            <td contenteditable="true">float() argument must be a string or a number, not 'list'</td>
+            <td contenteditable="true">Yes</td>
+            <td contenteditable="true">complex() first argument must be a string or a number, not 'tuple'</td>
+            <td contenteditable="true">Yes</td>
+            <td contenteditable="true">Yes</td>
+            <td contenteditable="true">Yes</td>
+            <td contenteditable="true">Yes</td>
+            <td contenteditable="true">No</td>
 
 
         </tr>
         <tr>
             <th style="background-color: lightblue;">set</th>
-            <td>No</td>
-            <td>No</td>
-            <td>Yes</td>
-            <td>No</td>
-            <td>Yes</td>
-            <td>Yes</td>
-            <td>Yes</td>
-            <td>Yes</td>
-            <td>No</td>
+            <td contenteditable="true">No</td>
+            <td contenteditable="true">No</td>
+            <td contenteditable="true">Yes</td>
+            <td contenteditable="true">No</td>
+            <td contenteditable="true">Yes</td>
+            <td contenteditable="true">Yes</td>
+            <td contenteditable="true">Yes</td>
+            <td contenteditable="true">Yes</td>
+            <td contenteditable="true">No</td>
 
 
         </tr>
         <tr>
             <th style="background-color: lightblue;">dictionary</th>
-            <td>No</td>
-            <td>No</td>
-            <td>No</td>
-            <td>No</td>
-            <td>No</td>
-            <td>No</td>
-            <td>No</td>
-            <td>No</td>
-            <td>Yes</td>
+            <td contenteditable="true">No</td>
+            <td contenteditable="true">No</td>
+            <td contenteditable="true">No</td>
+            <td contenteditable="true">No</td>
+            <td contenteditable="true">No</td>
+            <td contenteditable="true">No</td>
+            <td contenteditable="true">No</td>
+            <td contenteditable="true">No</td>
+            <td contenteditable="true">Yes</td>
 
 
         </tr>

@@ -1,4 +1,4 @@
-
+print(type(('o')))
 print('1) Data types')
 print()
 print('{0} is an int Datatype'.format(62))
@@ -96,8 +96,10 @@ print()
 print('10) while loop')
 a = 0
 while a<=5:
-    print("*"," ",end=" ")
+    print("* "*a,end=" ")
     a=a+1
+    print()
+
 print()
 
 print('11) Break')
@@ -105,7 +107,6 @@ for i in range(1, 10):
     if i == 6:
         break
     print(i," ",end="")
-    print()
 print()
 
 print('12) continue')
@@ -113,7 +114,6 @@ for i in range(1, 15):
     if i == 10:
         continue
     print(i," ",end='')
-    print()
 print()
 
 print('13) pass')
@@ -121,8 +121,8 @@ for i in "python":
     if i == 't':
         pass
     else:
-        print(i)
-        print()
+        print(i,end=" ")
+    print()
 
 print()
 print('14) Functions')

@@ -2,7 +2,7 @@
 #Print the first 10 terms of the Fibonacci series using a for loop.
 first = 0
 second = 1
-for jagan in range(10):
+for _ in range(10):
     print(first,end=" ")
     first,second = second,first+second
 print()
