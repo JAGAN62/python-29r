@@ -1,7 +1,5 @@
 import random
 
-
-'''
 #Task1 --> Guess game
 def guess():
     random_number = random.randint(1,100)
@@ -49,7 +47,7 @@ def guess_number():
 guess_number()
 
 
-#Task3 --> Fibinocci series
+#Task4 --> Fibinocci series
 def fib():
     try:
         user = int(input("Enter a number for Fibinocci series: \n"))
@@ -79,6 +77,6 @@ def file_handling():
                 ans[i]=count
             print(ans)
     except FileNotFoundError:
-        print("The file 'textfile.txt' was not found.")
+        print("The file was not found.")
 file_handling()
-'''
+

@@ -39,6 +39,7 @@ def valid_mail():
         return str(e)
 print(valid_mail())
 
+
 #Task4 --> Calculator
 def cal():
     try:
@@ -67,6 +68,7 @@ def cal():
     except ValueError:
         return "Invalid input"
 print(f"Answer : {cal()}")
+
 
 #Task5 --> Palindrome checker
 def palin(user):
